@@ -71,7 +71,7 @@ Python Path       :         /workspace/rasa-project/venv/bin/python
 
 και ακολουθείτε τις οδηγίες για να δημιουργήσετε το project σας. Είστε πλέον έτοιμοι να φτιάξετε το bot σας. :) Προαιρετικά, αν θέλετε να εγκαταστήσετε το Rasa X, τρέξτε την εντολή:
 
-``pip install rasa-x -i https://pypi.rasa.com/simple``
+``pip install rasa-x==1.0.0 -i https://pypi.rasa.com/simple``
 
 και επιβεβαιώνουμε την εγκατάσταση με την εντολή:
 
