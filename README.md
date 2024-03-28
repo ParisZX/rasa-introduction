@@ -93,7 +93,7 @@ Python Path       :         /workspace/rasa-project/venv/bin/python
 
 1. Αν θέλετε να χρησιμοποιήσετε το Gitpod, μπορείτε να βρείτε ένα έτοιμο image με το περιβάλλον εδώ:
 
-[Gitpod workspace image](https://gitpod.io#snapshot/b448ed9f-b8b9-4f22-9d88-e33f96ee0a68)
+[Gitpod workspace image](https://gitpod.io#snapshot/9bdf2a48-db3a-4f5a-8468-8d23399c0147)
 
 Εκεί, μπορείτε να ανοίξετε το virtual environment με προεγκατεστημένο το Rasa και το Rasa X με την εντολή:
 
