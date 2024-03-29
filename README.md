@@ -13,14 +13,14 @@
 
 3. [Rasa για Ubuntu](https://www.youtube.com/watch?v=tXiYJM2vGJk)
 
-Εναλλακτικά, στη συνέχεια παρατίθενται οδηγίες για την εγκατάστασή του με χρήση της Python 3.7 και virtual environment. Για αυτή τη μέθοδο εγκατάστασης, το πρώτο που θα χρειαστείτε είναι να προεγκαταστήσετε την Python 3.7.
+Εναλλακτικά, στη συνέχεια παρατίθενται οδηγίες για την εγκατάστασή του με χρήση της Python 3.10 και virtual environment. Για αυτή τη μέθοδο εγκατάστασης, το πρώτο που θα χρειαστείτε είναι να προεγκαταστήσετε την Python 3.10.
 
-1. Κατεβάστε την Python από εδώ [Python 3.7](https://www.python.org/downloads/release/python-379/) και επιλέξτε τον αντίστοιχο installer ανάλογα με το σύστημά σας (Π.χ. για Windows 10 κατεβάστε το αρχείο ***Windows x86-64 executable installer*** από τη λίστα). Έπειτα ακολουθώντας τις οδηγίες, μπορείτε να εγκαταστήσετε την Python. Προσοχή, στα Windows 10 όταν τρέξετε τον installer, τσεκάρετε την επιλογή ***Add Python 3.7 to PATH***.
+1. Κατεβάστε την Python από εδώ [Python 3.10](https://www.python.org/downloads/release/python-31014/)) και επιλέξτε τον αντίστοιχο installer ανάλογα με το σύστημά σας (Π.χ. για Windows 10 κατεβάστε το αρχείο ***Windows x86-64 executable installer*** από τη λίστα). Έπειτα ακολουθώντας τις οδηγίες, μπορείτε να εγκαταστήσετε την Python. Προσοχή, στα Windows 10 όταν τρέξετε τον installer, τσεκάρετε την επιλογή ***Add Python 3.10 to PATH***.
 
 2. Στη συνέχεια, πρέπει να εγκαταστήσουμε τo Rasa. Για να το κάνουμε αυτό, θα δημιουργήσουμε ένα virtual environment σε Python. Αρχικά φτιάξτε ένα φάκελο όπου μέσα θα θέλετε να φτιάξετε την εργασία σας (αν έχετε κάνει fork αυτό το repository, χρησιμοποιήστε τον φάκελο όπου το κάνατε clone). Ανοίξτε αυτόν τον φάκελο με ένα PowerShell (αν χρησιμοποιείτε Windows) ή με ένα terminal (αν είστε σε MacOS/Linux). Εκεί, πρέπει πρώτα να εγκαταστήσουμε τη δυνατότητα δημιουργίας virtual environments σε Python, με την εντολή:
 
 για Linux:
-``python3.7 -m pip install virtualenv``
+``python3.10 -m pip install virtualenv``
 
 για Windows:
 ``python -m pip install virtualenv``
@@ -28,7 +28,7 @@
 και μετά, για να δημιουργήσουμε ένα virtual environment, τρέχουμε την εντολή:
 
 για Linux:
-``python3.7 -m virtualenv venv``
+``python3.10 -m virtualenv venv``
 
 για Windows:
 ``python -m virtualenv venv``
